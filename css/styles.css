@@ -43,6 +43,18 @@ img {
     max-width: 100%; /** Para que las imagenes se adapten en el contenedor **/
 }
 
+/** GRID **/
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
+
+
 /** UTILIDADES **/
 .centrar-texto {
     text-align: center;
